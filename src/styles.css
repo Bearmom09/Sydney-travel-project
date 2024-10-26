@@ -14,18 +14,60 @@ body {
   grid-gap: 64px;
 }
 
+.img-responsive {
+    max-width: 100%;
+    display: block;
+}
+
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.card {
+    background-color: white;
+}
+
+.card-body {
+    padding: 30px;
+}
+ .card-footer {
+    padding: 30px;
+ }
+
+.btn {
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: #462CB3;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
 section {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px 100px;
+}
+
+section.secondary {
+    background: lightgrey;
 }
 
 header {
@@ -98,6 +140,22 @@ main h3 {
   color: #272044;
   opacity: 0.3;
   text-transform: uppercase;
+  margin: 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  color: #272044;
   margin: 0;
 }
 
